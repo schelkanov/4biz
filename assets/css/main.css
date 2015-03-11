@@ -8,7 +8,7 @@
  */
 
 body {
-  background-color: #f2f2f2;
+  background-color: ##e1e3e4;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -72,6 +72,7 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
+
 
 /* ==========================================================================
    Wrap Sections
@@ -144,10 +145,7 @@ a:after {
 	padding-bottom: 20px;
 }
 
-.slided{
-    width:230px;
-    height:100px;
-}
+
 /* White Wrap */
 
 #w {
@@ -171,7 +169,7 @@ a:after {
 /* Grey Wrap */
 
 #g {
-	background: #f2f2f2;
+	background: ##e1e3e4;
 	padding-top: 35px;
 	padding-bottom: 35px;
 	text-align: center;

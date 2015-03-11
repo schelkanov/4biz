@@ -16,10 +16,13 @@
  	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick-theme.css"/>   
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick-theme.css"/>   
+     <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.2.0/animate.css"/>
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/Chart.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
+	
+	
 	
 
 	
@@ -66,8 +69,8 @@
 			<br>
 			<br>
 			<br>
-			<h1><span style="color:#c0c0c0">O</span><span style="color:#D1D1D1">U</span><span style="color:#D6D6D6">T</span>FORCE</h1>
-			<h2><span style="color:#FFFFFF"><b>Awesome Outsorcing Agency :)</b></span></h2>
+			<h1 class="animated bounceInLeft"><span style="color:#c0c0c0">O</span><span style="color:#D1D1D1">U</span><span style="color:#D6D6D6">T</span>FORCE</h1>
+			<h2 class="animated bounceInUp"><span style="color:#FFFFFF"><b>Awesome Outsorcing Agency :)</b></span></h2>
 			<div class="row">
 				<br>
 				<br>
@@ -80,100 +83,151 @@
 	
 	
 	<!-- ========== WHITE SECTION ========== -->
+<script> 
+
+</script> 
+
+
+
+	<div id="head">
 	<div id="w">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-3">
-				<h3><b>OUTFORCE.BIZ</b> - BRIDGE BETWEEN BUSSINESS AND DEVELOPMENT  
+				<h3 class="wow fadeInUpBig"><b>OUTFORCE.BIZ</b> - BRIDGE BETWEEN BUSSINESS AND DEVELOPMENT  
 				</h3>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /w -->
-	
+	</div><!-- /head -->
+
 	<!-- ========== SERVICES - GREY SECTION ========== -->
+
+	
 	<section id="services" name="services"></section>
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h1><b>OUR SERVICES</b></h1>
+				<h1 class="wow fadeInUpBig"><b>OUR SERVICES</b></h1>
 				<br>
 				<br>
+                <div class="link_group">
 				<div class="col-lg-3">
-                     <a href=# <i class="icon-cogs icon-4x">&nbsp;</i>
-					<h3><b>Business process outsourcing</b></h3> </a>
-					<p>OUTFORCE.BIZ is a 24/7 full stack DevOps management provider. Simply put, we help hundreds of organizations focus on doing what they love while we handle security, reliability, and performance issues. We manage sites and apps in the cloud of your choice (or your own datacenter).</p>
+                   <a onclick="$('#info_devops').slideToggle('slow');" href="#info_devops"><i class="icon-cogs icon-4x">&nbsp;</i></a>
+					<h3 class="wow rollIn"><b>DevOps Automation Outsourcing</b></h3> </a>
+					<p class="wow rollIn">OUTFORCE.BIZ is a 24/7 full stack DevOps management provider. Simply put, we help hundreds of organizations focus on doing what they love while we handle security, reliability, and performance issues. We manage sites and apps in the cloud of your choice (or your own datacenter).
+					<p><a onclick="$('#info_devops').slideToggle('slow'); $('#info_seo').hide('slow') ; $('#info_support').hide('slow') ; $('#info_webdev').hide('slow') ;" href="#info_devops"><button type="button" class="btn btn-info" >More...</button>	</a></p>
+					</div>
+				</div>
+
+			
+				<div class="col-lg-3">
+					<a onclick="$('#info_webdev').slideToggle('slow'); $('#info_devops').hide('slow') ;$('#info_seo').hide('slow'); $('#info_support').hide('slow') ;  " href="#info_webdev"><i class="icon-code icon-4x">&nbsp;</i></a>
+					<h3 class="wow rollIn"><b>WEB Development</b></h3></a>
+					<p class="wow rollIn">We make websites built for performance.Our methodology is proven for each industry we serve.We provide a dedicated team of specialized experts. </p>
+					<p><a onclick="$('#info_webdev').slideToggle('slow'); $('#info_devops').hide('slow') ;$('#info_seo').hide('slow'); $('#info_support').hide('slow')  ;" href="#info_webdev"><button type="button" class="btn btn-info">More..</button>	</a></p>
 				</div>
 				<div class="col-lg-3">
-					<a href=#<i class="icon-code icon-4x">&nbsp;</i>
-					<h3><b>WEB Development</b></h3></a>
-					<p>We make websites built for performance.Our methodology is proven for each industry we serve.We provide a dedicated team of specialized experts. </p>
+					<a onclick="$('#info_seo').slideToggle('slow'); $('#info_devops').hide('slow'); $('#info_webdev').hide('slow');$('#info_support').hide('slow');  " href="#info_seo"><i class="icon-info icon-4x">&nbsp;</i></a></p>
+					<h3 class="wow rollIn"><b>Websites Built for SEO and Content Marketing Strategy</b></h3></a>
+					<p class="wow rollIn">Websites are relevant to all three stages of the marketing funnel, which is why your website is the center of your entire marketing strategy. The web is a powerful marketing tool, but to be effective, the content strategy must be built into the site. It has to be central to planning, design, and programming.. 
+                    <p><a onclick="$ ('#info_seo').slideToggle('slow'); $('#info_devops').hide('slow'); $('#info_webdev').hide('slow');$('#info_seo').hide('slow');  ;" href="#info_seo"><button type="button" class="btn btn-info">More..</button>	</a></p>
 				</div>
 				<div class="col-lg-3">
-					<a href=#<i class="icon-info icon-4x">&nbsp;</i>
-					<h3><b>Websites Built for SEO and Content Marketing Strategy</b></h3></a>
-					<p>Websites are relevant to all three stages of the marketing funnel, which is why your website is the center of your entire marketing strategy. The web is a powerful marketing tool, but to be effective, the content strategy must be built into the site. It has to be central to planning, design, and programming..</p>
+					<a onclick="$('#info_support').slideToggle('slow'); $('#info_devops').hide('slow'); $('#info_webdev').hide('slow');$('#info_seo').hide('slow');  " href="#info_support"><i class="icon-road icon-4x">&nbsp;</i></a></p>
+					<h3 class="wow rollIn"><b>Support Your Project</b></h3></a>
+					<p class="wow rollIn">OUTFORCE.BIZ Customer Support offers dedicated continuous support for all our products. We have a nationwide network of skilled engineers who are ready to assist and advise you on how to keep your equipment operating at optimum efficiency for its whole life.  </p>
+					<a onclick="$('#info_support').slideToggle('slow') ; $('#info_devops').hide('slow'); $('#info_webdev').hide('slow');$('#info_seo').hide('slow');  " href="#info_support"><button type="button" class="btn btn-info">More..</button></a></p>
 				</div>
-				<div class="col-lg-3">
-					<a href=#<i class="icon-road icon-4x">&nbsp;</i> 
-					<h3><b>Support Your Project</b></h3></a>
-					<p>OUTFORCE.BIZ Customer Support offers dedicated continuous support for all our products. We have a nationwide network of skilled engineers who are ready to assist and advise you on how to keep your equipment operating at optimum efficiency for its whole life.</p>
-				</div>
+                </div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /g -->
+	<div class="container">
+	<div class="row">
+	<div id="info_devops" style="display:none">
+	<section id="info_devops" name="info_devops"></section>
+		 <center><img src="assets/img/devb.png" height="350" width="550"></center>
+     <div class="col-lg-12">
+		 <center><p class="wow rollIn">Traditionally, organizations had their development, testing and maintenance teams operate in silos. As limitations of this model surfaced and compelling benefits of adopting agile development methodology emerged, organizations started breaking down the silos to support greater collaboration between their development & operations teams, and increasingly looked at an extension of Agile, namely DevOps.</p>
+		 <p class="wow rollIn">DevOps is an operational approach which integrates development & operations in the same cycle with greater emphasis on Continuous Integration, Infrastructure-as-code, Continuous Testing & Continuous Delivery to reduce the code-to-deployment time. DevOps standardizes efforts and ensures accelerated time to market, improved deployment quality and greater operational efficiency.</p>
+		  <div  data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "autoplay": true, "speed": 1000,  "autoplaySpeed": 700}'>
+		  <div><img src="assets/img/DevOps-infinity-loop2.png"></div>	  
+          <div><img src="assets/img/devops-mini.png"></div>
+          <div><img src="assets/img/ci.png" height="430" width="550"></div>
+          </div>
+		 		
+		 <h3 class="wow rollIn">DevOps Cycle</h3>
+		 <p class="wow rollIn"><b>1.Test Automation:</b> OutForce proven Test Automation expertise across various platforms (Cloud & Mobile), technologies and domains coupled with our proprietary Test Automation Accelerator (ETAS) positions us uniquely to provide custom test automation solutions to kick-start DevOps cycle. OutForce proven test automation framework enables Automated Acceptance Testing in DevOps cycle. As a result brings in Agility to DevOps Testing cycle.</p>
+         <p class="wow rollIn"><b>2.Virtualization:</b> OutForce expertise in creating and configuring test environments for clients across business domains using Virtual Environments locally (like VSphere, HyperVisor, Virtual Box etc.) and on the cloud (like Amazon EC2 AWS, Microsoft Azure, Google Cloud etc.) gives us a proven edge to assist client’s DevOps implementation.</p>
+         <p class="wow rollIn"><b>3.Continuous Integration:</b> With rich experience in Continuous integration testing, Gallop’s CI testers are experts in configuration and execution of popular CI tools such as Agile GO, Cruise Control, Chef, Puppet, Microsoft TFS, Jenkins, Bamboo, Hudson and so on, helping client’s DevOps team.</p>
+         <p class="wow rollIn"><b>4.Monitoring:</b> Continuous monitoring is a pressing need of CI in DevOps. This translates to not just finding out the defects but also anticipating issues and providing live feedback during build monitoring. Gallop’s software testing expertise and robust reporting frameworks ensures setting up of client’s DevOps monitors for enhanced monitoring.</p>
+         </center>
+      </div> 
+	</div>
+	</div>
+	</div>
+
+	 <div id="info_webdev" style="display:none">
+     <section id="info_webdev" name="info_webdev"></section>
+		 <center><h3><b>Web Development<b></h3></center>
+     <div class="col-lg-12">
+		 <b>Web dev Info here</b>
+      </div>		 
+	</div>
+	
+	<div id="info_seo" style="display:none">
+	<section id="info_seo" name="info_seo"></section>
+		 <center><h3><b>Seo info<b></h3></center>
+     <div class="col-lg-12">
+		 <b>seo Info here</b>
+      </div>		 
+	</div>
+	
+   <div id="info_support" style="display:none">
+	<section id="info_support" name="info_support"></section>
+		 <center><h3><b>Support<b></h3></center>
+     <div class="col-lg-12">
+		 <b>support Info here</b>
+      </div>		 
+	</div>
+	
+	
+	
 	
 	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
+	
      <div id="w">
 		<div class="container">
 			<div class="row">
-				<h2>TECHNOLOGIES WE WORK WITH</h2>
-                   <div  data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "speed": 200, "adaptiveHeight": true, "responsive": true, "autoplaySpeed": 1000}'>
-                   <div><img class="slided" src="assets/img/amazon-184101_640.png"></div>
-                   <div><img class="slided" src="assets/img/Java-horz-clr.png"></div>
-                   <div><img class="slided" src="assets/img/nodejs.png"></div>
-                   <div><img class="slided" src="assets/img/drupal-development-640x320.png"></div>
-                   <div><img class="slided" src="assets/img/rails(640x320).png"></div>
-                   <div><img class="slided" src="assets/img/nginx(720X320).jpg"></div>
-                   <div><img class="slided" src="assets/img/yii.png"></div>
-                   <div><img class="slided" src="assets/img/logo-php-xxl.png"></div>
-</div>
-			</div>
+				<h2 class="wow bounceInUp" >TECHNOLOGIES WE WORK WITH</h2>
+                   <div  data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "speed": 10000,  "autoplaySpeed": 1000}'>
+                   <div><img src="assets/img/amazon-184101_640.png" height="120" width="210"></div>
+                   <div><img src="assets/img/javascript-redirect.png" height="120" width="210"></div>
+                   <div><img src="assets/img/nodejs.png" height="120" width="210"></div>
+                   <div><img src="assets/img/pinterest-logo-transparent.png" height="120" width="210"></div>
+                   <div><img src="assets/img/rails(640x320).png" height="120" width="210" ></div>
+                   <div><img src="assets/img/nginx(720X320).jpg" height="120" width="210"></div>
+                   <div><img src="assets/img/yiinitializr-logo.png" height="120" width="210"></div>
+                   <div><img src="assets/img/logo-php-xxl.png" height="120" width="210"></div>
+             </div>
 			
 			</div>
-			
+			</div>
 		</div><!-- /container -->
 		
 		
 		
 	
-	
-	<section id="portfolio" name="portfolio"></section>
-	<div id="portfoliowrap">
-		<div class="container">
-			<div class="row">
-				<h3>COOL WORKS</h3>
-				<br>
-				<br>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work1.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work2.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work3.png"></a>
-				</div>				
-			</div>	
-		</div><!-- /container -->
-	</div><!-- /portfoliowrap -->
+
 	
 	<!-- ========== WHITE SECTION ========== -->
 	<div id="w">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-				<h3>WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
+				<div class="col-lg-8 col-lg-offset-3">
+				<h3 class="wow bounceInUp">WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
 				</h3>
 				</div>
 			</div>
@@ -185,7 +239,7 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>ABOUT US</h3>
+				<h2 class="wow bounceInUp"><b>ABOUT US</b></h2>
 				<br>
 				<br>
 				<div class="col-lg-2"></div>
@@ -235,7 +289,7 @@
 				</div>
 
 				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
+					<img class="img-circle" src="assets/img/team04.jpg " height="90" width="90">
 					<h4>Tim Gates</h4>
 					<h5><i>Back-end Guru</i></h5>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -289,8 +343,7 @@
 		
 		</div>
 	</div>
-	
-	
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -300,6 +353,14 @@
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
+    <script>
+    new WOW().init();
+   </script>
+  
+
 	
 </body>
 </html>
